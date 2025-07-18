@@ -1,0 +1,286 @@
+@media (max-width:768px) {
+
+    .tarrifs-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarrifs{
+        background-image: url('../img/image_2025-07-17_00-56-37.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 1800px;
+    }
+
+    .tarrifs-content-item{
+        width: 100%;
+        max-width: 720px;
+        min-height: 600px;
+    }
+
+    .tarrifs-content-item-problem{
+        width: 100%;
+        max-width: 720px;
+        min-height: 600px;
+    }
+
+    .tarrifs-content-item-button{
+        width: 100%;
+        max-width: 688px;
+        font-size: 20px;
+        height: 56px;
+    }
+
+    .tarrifs h2{
+        font-size: 32px;
+    }
+
+    .tarrifs-content-item button{
+        width: 100%;
+        max-width: 688px;
+        font-size: 16px;
+    }
+
+    .tarrifs-content-item h3 {
+        font-size: 24px;
+    }
+
+    .tarrifs-content-text-item p{
+        font-size: 16px;
+    }
+
+    .jop{
+        display: none;
+    }
+
+    .chop{
+        display: flex;
+    }
+
+    .tarrifs-content-text-item p{
+        max-width: 600px;
+    }
+
+    .tarrifs-content-text{
+        gap: 20px;
+    }
+
+    .slide-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .controls{
+        margin-top: 0;
+    }
+
+    .slide-text ul li{
+        max-width: 702px;
+    }
+
+    .slide-text p{
+        max-width: 720px;
+    }
+
+    .slide-text .result {
+        width: 100%;
+        max-width: 720px;
+        margin-bottom: 20px;
+        margin-top: 16px;
+    }
+
+        /* .comp{
+        display: none;
+    } */
+
+    .question{
+        font-size: 18px;
+    }
+
+    .faq-section {
+        margin-bottom: 102px;
+    }
+
+    .answer{
+        font-size: 16px;
+    }
+
+    .faq-section{
+        padding: 0px 24px;
+    }
+
+    .order__content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 720px;
+        border-radius: 30px;
+        gap: 40px;
+        background-image: url('../img/Frame\ 108.png');
+    }
+
+    .order{
+        padding: 0px 24px;
+    }
+
+    .order__text{
+        margin-right: auto;
+    }
+
+    .order__text h3{
+        font-size: 32px;
+        max-width: 578px;
+    }
+
+    .order__text p{
+        font-size: 16px;
+        max-width: 585px;
+    }
+
+    .faq-section h2{
+        font-size: 32px;
+    }
+
+    .cases-section h2{
+        font-size: 32px;
+    }
+
+    .order__order input{
+        width: 672px;
+    }
+
+    .problem-footer{
+        display: none;
+    }
+
+    .footer__inner {
+        gap: 0px;
+        flex-wrap: nowrap;
+        padding: 0px 21px;
+    }
+
+        .header_content_left{
+            margin-top: 50px;
+        }
+
+    /* .order__order button{
+        padding: 14px ;
+    } */
+}
+
+@media (max-width:430px) {
+            .header_content_left{
+            margin-top: 110px;
+        }
+    .slide-text h3{
+        font-size: 24px;
+    }
+
+    .slide-text .result{
+        max-width: 328px;
+    }
+
+    .slide-text p{
+        max-width: 328px;
+    }
+
+    .slide-text ul li{
+        max-width: 310px;
+    }
+
+    .slide-image{
+        display: none;
+    }
+
+    .ggg{
+        position: fixed;
+    }
+
+    .slide-image-mob{
+        display: block;
+        padding: 0px 16px;
+    }
+
+    .tarrifs-content{
+        padding: 0px 16px;
+    }
+
+    .tarrifs-content-item{
+        height: 655px;
+    }
+
+    .tarrifs h2{
+        padding-top: 20px;
+    }
+
+    .tarrifs-content-item{
+        min-height: 750px;
+    }
+
+    .slide-text h3 {
+        max-width: 330px;
+    }
+
+    .question{
+        font-size: 16px;
+        padding: 16px 24px;
+        text-align: left;
+    }
+
+    .faq-section{
+        padding: 0px 16px;
+    }
+
+    .faq-section {
+        margin-bottom: 96px;
+    }
+
+    .order__content{
+        background-image: url('../img/Frame\ 118.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        gap: 32px;
+        padding: 40px 16px;
+    }
+
+    .order__order input {
+        width: 296px;
+        margin: 0 auto;
+    }
+
+    .order__order button {
+        width: 296px;
+        padding: 14px 50px;
+        font-size: 16px;
+    }
+
+    .order__text h3{
+        font-size: 29px;
+        max-width: 296px;
+    }
+
+    .footer__inner{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .footer__section{
+        flex: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .problem-footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .comp{
+        display: none;
+    }
+}
