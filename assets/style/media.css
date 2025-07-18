@@ -110,6 +110,28 @@
         padding: 0px 24px;
     }
 
+.spec_modal_right{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.spec_modal{
+    margin-left: 130px;
+    width: 500px;
+}
+
+.spec_modal_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+        .spec_modal_desc{
+            max-width: 325px;
+        }
+
     .order__content{
         display: flex;
         flex-direction: column;
@@ -170,6 +192,11 @@
 }
 
 @media (max-width:430px) {
+
+    .spec_modal{
+        margin-left: 16px;
+        max-width: 320px;
+    }
             .header_content_left{
             margin-top: 110px;
         }

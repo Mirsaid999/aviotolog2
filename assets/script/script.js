@@ -44,3 +44,48 @@
       }
     });
   });
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('auditModal');
+    const openBtn = document.getElementById('buyPlanBtn');
+    const closeBtn = modal.querySelector('.modal__close');
+
+    openBtn.addEventListener('click', () => {
+      modal.classList.add('active');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    // Закрытие по клику на фон
+    modal.addEventListener('click', e => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  });
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('secondModal');
+    const openButtons = document.querySelectorAll('.open-audit-modal');
+    const closeBtn = modal.querySelector('.modal__close');
+
+    openButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        modal.classList.add('active');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+
+    modal.addEventListener('click', e => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  });
